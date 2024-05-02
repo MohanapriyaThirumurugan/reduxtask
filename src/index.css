@@ -1,0 +1,63 @@
+.container {
+  padding: 20px;
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 20px; /* Add margin between cards */
+  width: calc(50% - 20px); /* Reduce card width */
+  background-color: #f9f9f9; /* Light background color */
+}
+
+.cardImage {
+  width: 100%;
+  height: auto;
+  border-radius: 8px 0 0 8px;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.top {
+  margin-bottom: 20px;
+}
+
+.bottom {
+  margin-top: 20px;
+}
+
+.quantityText {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.btn {
+  cursor: pointer;
+}
+
+.btn-outline-danger,
+.btn-outline-success {
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+}
+
+.btn-primary {
+  width: 100%;
+}
+
+.float-end {
+  float: right;
+}
+
+@media (max-width: 768px) {
+  .card {
+    width: 100%; /* Make cards full width on smaller screens */
+  }
+
+  .cardImage {
+    border-radius: 8px 8px 0 0;
+  }
+}
